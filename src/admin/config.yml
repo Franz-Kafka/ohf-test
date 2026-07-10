@@ -1,0 +1,41 @@
+backend:
+  name: github
+  repo: Franz-Kafka/ohf-test
+  branch: main
+
+media_folder: "src/assets/img"
+public_folder: "/assets/img"
+
+collections:
+  - name: "doku"
+    label: "Projektdokumentation"
+    folder: "src/doku"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Beschreibung", name: "description", widget: "text" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk" }
+      - { label: "Tags", name: "tags", widget: "hidden", default: "doku" }
+      - { label: "Reihenfolge", name: "order", widget: "number", value_type: "int" }
+      - { label: "Inhalt", name: "body", widget: "markdown" }
+
+  - name: "lernmaterial"
+    label: "Lernmaterialien"
+    folder: "src/lernmaterial"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Beschreibung", name: "description", widget: "text" }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/lernmaterial.njk" }
+      - { label: "Tags", name: "tags", widget: "hidden", default: "lernmaterial" }
+      - { label: "Reihenfolge", name: "order", widget: "number", value_type: "int" }
+      - label: "Thema"
+        name: "thema"
+        widget: "select"
+        options:
+          - "Demokratiegeschichte"
+          - "Kaiserwahlen"
+          - "Nationalsozialismus"
+      - { label: "Inhalt", name: "body", widget: "markdown" }

@@ -1,0 +1,29 @@
+---
+layout: layouts/base.njk
+---
+<article class="page-content">
+  <h1>{{ title }}</h1>
+  {% if description %}
+  <p class="page-description">{{ description }}</p>
+  {% endif %}
+  <div class="prose">
+    {{ content | safe }}
+  </div>
+  {% set dokuPages = collections.doku %}
+  {% set currentIndex = -1 %}
+  {% for item in dokuPages %}
+    {% if item.url == page.url %}
+      {% set currentIndex = loop.index0 %}
+    {% endif %}
+  {% endfor %}
+  {% if currentIndex >= 0 %}
+  <nav class="page-nav" aria-label="Seitennavigation">
+    {% if currentIndex > 0 %}
+    <a href="{{ dokuPages[currentIndex - 1].url }}" class="page-nav-link prev">← {{ dokuPages[currentIndex - 1].data.title }}</a>
+    {% endif %}
+    {% if currentIndex < dokuPages.length - 1 %}
+    <a href="{{ dokuPages[currentIndex + 1].url }}" class="page-nav-link next">{{ dokuPages[currentIndex + 1].data.title }} →</a>
+    {% endif %}
+  </nav>
+  {% endif %}
+</article>

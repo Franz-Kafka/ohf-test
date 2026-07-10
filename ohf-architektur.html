@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Architektur – OHF Projektdokumentation</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: system-ui, -apple-system, sans-serif; background: #fff; color: #1a1a1a; padding: 40px; max-width: 900px; margin: 0 auto; }
+  h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; }
+  .subtitle { font-size: 13px; color: #666; margin-bottom: 32px; }
+
+  .layer { margin-bottom: 16px; border: 1px solid #e0e0e0; border-radius: 10px; padding: 20px; background: #fafafa; }
+  .layer-label { font-size: 11px; font-weight: 600; color: #888; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 14px; }
+  .cards { display: flex; gap: 12px; flex-wrap: wrap; }
+  .card { flex: 1; min-width: 160px; border-radius: 8px; padding: 14px 16px; border: 1.5px solid; }
+  .card h3 { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+  .card p { font-size: 12px; color: #666; line-height: 1.5; }
+
+  .card.blue { border-color: #4A90D9; background: rgba(74,144,217,0.06); }
+  .card.purple { border-color: #7B61FF; background: rgba(123,97,255,0.06); }
+  .card.green { border-color: #34A853; background: rgba(52,168,83,0.06); }
+  .card.gray { border-color: #ccc; background: #fff; }
+  .card.dashed { border-style: dashed; }
+
+  .arrow-row { display: flex; justify-content: center; padding: 6px 0; }
+  .arrow { color: #999; font-size: 20px; }
+  .arrow-label { font-size: 10px; color: #999; margin-left: 8px; line-height: 20px; }
+  .arrow-row-multi { display: flex; justify-content: space-around; padding: 6px 40px; }
+
+  .repo-inner { display: flex; gap: 10px; flex-wrap: wrap; }
+  .repo-block { flex: 1; min-width: 100px; background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 10px 12px; text-align: center; }
+  .repo-block h4 { font-size: 12px; font-weight: 600; margin-bottom: 3px; }
+  .repo-block p { font-size: 10px; color: #888; }
+
+  .legend { margin-top: 24px; padding: 16px 20px; background: #f5f5f5; border-radius: 8px; font-size: 12px; color: #555; line-height: 1.8; }
+  .legend strong { color: #1a1a1a; }
+</style>
+</head>
+<body>
+
+<h1>Technische Architektur: OHF Projektdokumentation</h1>
+<p class="subtitle">Eleventy + Sveltia CMS + GitHub Pages</p>
+
+<!-- Layer 1: Users -->
+<div class="layer">
+  <div class="layer-label">Nutzer*innen</div>
+  <div class="cards">
+    <div class="card blue">
+      <h3>HMF-Redaktion</h3>
+      <p>Browser · Keine Installation nötig · Pflegt Inhalte über Sveltia CMS</p>
+    </div>
+    <div class="card purple">
+      <h3>Entwickler</h3>
+      <p>Code · Templates · Theme · Arbeitet direkt im Repository</p>
+    </div>
+    <div class="card green">
+      <h3>Öffentlichkeit</h3>
+      <p>Liest die Doku · Lädt ZIP · Nutzt Lernmaterialien</p>
+    </div>
+  </div>
+</div>
+
+<div class="arrow-row"><span class="arrow">↓</span><span class="arrow-label">Zugriff</span></div>
+
+<!-- Layer 2: CMS -->
+<div class="layer">
+  <div class="layer-label">Redaktionsoberfläche (das „Backend")</div>
+  <div class="cards">
+    <div class="card blue" style="max-width: 460px;">
+      <h3>Sveltia CMS</h3>
+      <p>Browserbasierte Klick-Oberfläche unter <code>/admin</code>. Formularfelder für alle Seitentypen. Login über GitHub. Erzeugt Markdown-Dateien und committet sie automatisch ins Repository. Kein Terminal, keine lokale Installation – läuft auf Stadtrechnern.</p>
+    </div>
+  </div>
+</div>
+
+<div class="arrow-row"><span class="arrow">↓</span><span class="arrow-label">git commit / push</span></div>
+
+<!-- Layer 3: Repository -->
+<div class="layer">
+  <div class="layer-label">GitHub Repository (Quelle der Wahrheit)</div>
+  <div class="repo-inner">
+    <div class="repo-block">
+      <h4>Markdown</h4>
+      <p>Texte · Lernmaterial · Projektdoku</p>
+    </div>
+    <div class="repo-block">
+      <h4>Assets</h4>
+      <p>Bilder · Videos · Audio · Illustrationen</p>
+    </div>
+    <div class="repo-block">
+      <h4>Templates</h4>
+      <p>Layouts · Partials · Nunjucks/Liquid</p>
+    </div>
+    <div class="repo-block">
+      <h4>Theme / CSS</h4>
+      <p>Design · HMF-CI · Responsive</p>
+    </div>
+    <div class="repo-block">
+      <h4>GitHub Actions</h4>
+      <p>Auto-Build &amp; Deploy bei jedem Push</p>
+    </div>
+  </div>
+</div>
+
+<div class="arrow-row"><span class="arrow">↓</span><span class="arrow-label">eleventy build → deploy</span></div>
+
+<!-- Layer 4: Output -->
+<div class="layer">
+  <div class="layer-label">Output / Ergebnisse</div>
+  <div class="cards">
+    <div class="card green">
+      <h3>Statische Website</h3>
+      <p>GitHub Pages · DOI-fähig · WCAG 2.2 AA · Responsive</p>
+    </div>
+    <div class="card green">
+      <h3>HTML-ZIP</h3>
+      <p>Lernmaterialien · Offline nutzbar · Für OER-Repositorien</p>
+    </div>
+    <div class="card blue dashed">
+      <h3>PDF-Export</h3>
+      <p>Optional · Paged.js · Gesamtdokumentation · Barrierefrei</p>
+    </div>
+  </div>
+</div>
+
+<div class="legend">
+  <strong>Workflow:</strong> Das HMF-Team öffnet <code>/admin</code> im Browser → bearbeitet Inhalte in Formularfeldern → klickt „Publish" → Sveltia committet Markdown ins Repo → GitHub Actions baut die Site automatisch → neue Version ist live.<br>
+  <strong>Kein Terminal, kein Node.js, keine lokale Installation nötig.</strong> Alles passiert im Browser oder automatisiert in der Cloud.<br>
+  <strong>PDF-Export</strong> als separat kalkulierter Posten (gestrichelt dargestellt).
+</div>
+
+</body>
+</html>

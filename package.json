@@ -1,0 +1,24 @@
+{
+  "name": "ohf-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Franz-Kafka/ohf-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Franz-Kafka/ohf-test/issues"
+  },
+  "homepage": "https://github.com/Franz-Kafka/ohf-test#readme",
+  "description": "",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  }
+}

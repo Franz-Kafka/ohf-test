@@ -1,0 +1,33 @@
+---
+layout: layouts/base.njk
+---
+<article class="page-content lernmaterial-page">
+  <div class="lernmaterial-badge">Lernmaterial</div>
+  <h1>{{ title }}</h1>
+  {% if description %}
+  <p class="page-description">{{ description }}</p>
+  {% endif %}
+  {% if thema %}
+  <p class="thema-label">Thema: {{ thema }}</p>
+  {% endif %}
+  <div class="prose">
+    {{ content | safe }}
+  </div>
+  {% set lmPages = collections.lernmaterial %}
+  {% set currentIndex = -1 %}
+  {% for item in lmPages %}
+    {% if item.url == page.url %}
+      {% set currentIndex = loop.index0 %}
+    {% endif %}
+  {% endfor %}
+  {% if currentIndex >= 0 %}
+  <nav class="page-nav" aria-label="Seitennavigation">
+    {% if currentIndex > 0 %}
+    <a href="{{ lmPages[currentIndex - 1].url }}" class="page-nav-link prev">← {{ lmPages[currentIndex - 1].data.title }}</a>
+    {% endif %}
+    {% if currentIndex < lmPages.length - 1 %}
+    <a href="{{ lmPages[currentIndex + 1].url }}" class="page-nav-link next">{{ lmPages[currentIndex + 1].data.title }} →</a>
+    {% endif %}
+  </nav>
+  {% endif %}
+</article>
