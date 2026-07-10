@@ -35,6 +35,8 @@ jobs:
 
       - name: Build
         run: npx @11ty/eleventy
+        env:
+          ELEVENTY_PATH_PREFIX: /ohf-test/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

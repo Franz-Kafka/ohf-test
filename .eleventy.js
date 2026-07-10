@@ -43,8 +43,8 @@ module.exports = function (eleventyConfig) {
         const indexFile = path.join(fullPath, "index.html");
         if (fs.existsSync(indexFile)) {
           let html = fs.readFileSync(indexFile, "utf-8");
-          html = html.replace(/\/assets\/css\/style\.css/g, "css/style.css");
-          html = html.replace(/\/assets\/img\//g, "img/");
+          html = html.replace(/[^"]*\/assets\/css\/style\.css/g, "css/style.css");
+          html = html.replace(/[^"]*\/assets\/img\//g, "img/");
           const outFile = path.join(tmpDir, entry + ".html");
           fs.writeFileSync(outFile, html);
         }
@@ -83,5 +83,6 @@ module.exports = function (eleventyConfig) {
     },
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
+    pathPrefix: process.env.ELEVENTY_PATH_PREFIX || "/",
   };
 };

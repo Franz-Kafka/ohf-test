@@ -37,7 +37,7 @@ Dieses Projekt erschließt Frankfurter Stadtgeschichte für Bildungseinrichtunge
 <div class="download-section">
   <h2>Lernmaterialien herunterladen</h2>
   <p>Alle Lernmaterialien als ZIP-Archiv für die Offline-Nutzung.</p>
-  <a href="/downloads/lernmaterialien.zip" class="btn-download">ZIP herunterladen</a>
+  <a href="{{ '/downloads/lernmaterialien.zip' | url }}" class="btn-download">ZIP herunterladen</a>
 </div>
 
 </div>
