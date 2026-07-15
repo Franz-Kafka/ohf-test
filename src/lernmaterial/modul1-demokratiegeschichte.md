@@ -215,7 +215,7 @@ Wo konzentrieren sich die Barrikaden?
 
 Die Kaiserdeputation aus Frankfurt bot König Friedrich Wilhelm IV. von Preußen am 3. April 1849 die deutsche Kaiserkrone an, die er jedoch ablehnte, da er sie nicht von einer revolutionären Nationalversammlung, sondern nur von den Fürsten von „Gottes Gnaden“ erhalten wollte. 
 
-![](https://pad.medialepfade.net/uploads/a7a89f48-1589-45ff-a81b-0436092cc7ff.jpg)
+![Die Kaiserdeputation aus Frankfurt vor Kaiser Friedrich Wilhelm IV.](/assets/img/modul1-bild.jpg)
     
     [DIE KAISERDEPUDATION AUS FRANKFURT vor Kaiser Friedrich Wilhelm IV.|| QUELLE: C25474_001.jpg]
 

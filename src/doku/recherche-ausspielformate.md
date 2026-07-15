@@ -6,9 +6,6 @@ order: 4
 description: "Recherche zu Ausspielformaten und Autorentools für OER"
 ---
 
-<< [ZURÜCK ZUR STARTSEITE](https://pad.medialepfade.net/openhistory#)
-
-------------------
 
 # Syntax
 
@@ -90,11 +87,11 @@ Export HTML und PDF
 Direktveröffentlichung als Open Educational Resources (OER) in einer Webversion.
 
 idaktisch ausdifferenzierte Such-Filter
-![](https://pad.medialepfade.net/uploads/d150f5ea-84f3-467d-8035-633697120188.png =550x)
+![Suchfilter](/assets/img/ausspielformate-1.png)
 
 Eigne Bilder / Medien-Upload: möglich mit Lizenzvergabe 
 
-<img src= "https://pad.medialepfade.net/uploads/d56236dc-ac50-4a81-b39d-58f5691b2a43.png" alt="your-image-description" style="border:2px solid grey" width="240" height="165">
+![Medien-Upload](/assets/img/ausspielformate-2.png)
 
 ------------------
 

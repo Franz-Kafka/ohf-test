@@ -76,7 +76,7 @@ Notiere alle Namen, die du entziffern konntest – und halte fest, wo die Tools 
     
 **Schritt 3: Abgeordnete in der Portrait-Sammlung suchen**📒
 
-Welche der Abgeordneten findest du in unserer [Portrait-Sammlung](https://pad.medialepfade.net/openhistory_1848-modul2-abgeordnete#)?
+Welche der Abgeordneten findest du in unserer [Portrait-Sammlung](/lernmaterial/abgeordnete/uebersicht/)?
 
 Wähle eine Person aus und recherchiere:
 - Welcher politischen Richtung gehörte sie an?

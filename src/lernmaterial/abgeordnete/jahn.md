@@ -23,6 +23,6 @@ uns immer noch gegenseitig unterstützen und gemeinsam abstimmen
 wenn uns der Zensor nicht entdeckt. Ich bin mit den jüngeren 
 Bewegungen nicht mehr einer Meinung, aber verraten werde ich sie nicht.~~
 
-![](https://pad.medialepfade.net/uploads/738ede01-67b8-4a46-97f7-e006e258923a.png =500x)
+![Portrait Friedrich Ludwig Jahn](/assets/img/jahn-portrait.png)
 
     ??? Objektbild aus  PLanspiel.
