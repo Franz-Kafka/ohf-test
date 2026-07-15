@@ -1,13 +1,73 @@
 ---
-title: "IV. Prototyp 1: Lernumgebung für Demokratiegeschichte in den Jahren 1848/49 rund um die Paulskirche in Frankfurt am Main"
-layout: "layouts/lernmaterial.njk"
-tags: "lernmaterial"
+title: 'IV. Prototyp 1: Lernumgebung für Demokratiegeschichte in den Jahren 1848/49 rund um die Paulskirche in Frankfurt am Main'
+description: Lernumgebung Demokratiegeschichte 1848/49 – Übersicht
+layout: layouts/lernmaterial.njk
+tags: lernmaterial
 order: 1
-description: "Lernumgebung Demokratiegeschichte 1848/49 – Übersicht"
-thema: "Demokratiegeschichte 1848/49"
+thema: Demokratiegeschichte 1848/49
 ---
 
-<< verfügt über eine Vielzahl an Ausstellungsobjekten, Fotos, Texten, Filmen und Informationen. Sie sollen einer Öffentlichkeit auch außerhalb der Museumsräume zur Verfügung gestellt werden.**
+<< [ZURÜCK ZUR STARTSEITE](https://pad.medialepfade.net/openhistory#)
+
+OpenHistory - Historisches Museum Frankfurt (Main)
+----------
+
+
+# IV. Prototyp 1: Lernumgebung für Demokratiegeschichte in den Jahren 1848/49 rund um die Paulskirche in Frankfurt am Main
+
+Die deutsche Demokratie begann in Frankfurt. Am 18. Mai 1848 versammelte sich in der Paulskirche das erste deutsche Parlament, die Nationalversammlung. 
+1815 hatten sich 34 Fürstenstaaten und vier Städte im Deutschen Bund zusammengeschlossen. Sein zentraler Versammlungsort, der Bundestag, war in Frankfurt. Die Mitglieder des Bundestages unterdrückten Forderungen nach Bürgerrechten, Staatseinheit und freien Wahlen. Dies führte zur deutschen Revolution von 1848. In diesem Jahr fanden in ganz Europa Aufstände für Demokratie statt. In der Folge löste sich der Bundestag auf und in der Paulskirche tagten nun 600 Volksvertreter. Aber dieses Parlament konnte sich nicht auf eine Staatsordnung einigen und verlor schnell an Macht gegenüber den Fürsten. 1849 schlugen die Fürsten erneute Unruhen militärisch nieder und das Parlament wurde aufgelöst. Doch das Erbe ist bedeutsam: Im März 1849 entstand eine Reichsverfassung mit Grund- und Bürgerrechten, die Vorbild für die Verfassungen der Weimarer Republik und der Bundesrepublik wurde.
+
+--------------------------------------
+-------------------
+    
+
+
+
+
+<blockquote style="background-color: #c1ecf7; border-color: #c1ecf7; font-size: 15px">
+    
+<br>
+    
+## Datenblatt / Überblick (lesbare Metadaten)
+    
+#### Rechtliche Informationen
+**Titel:** Demokratiegeschichte: einmal parlamentarische Demokeratie und zurück
+    
+**Autor\*innenschaft / Herausgeber\*in:** OpenHistory:Historisches Museuem Frankfurt am Main
+**Lizenzangabe:** CC-BY 4.0 (Namensnennung) --> oder auch "share alike"?
+**Erstellungsdatum und ggf. letzte Aktualisierung**: 03-06-2026
+**Beschreibung:** Lernpfad im Rahmen politischer und historischer Bildung zum Grundverständnis Parlamentarischer Demokratie 
+**Thematische Schlagworte/Tags**:
+**Zielgruppen / Bildungsstufe**:
+**Lehrplanbezug**
+**Fachzuordnung:** Geschichte, Politische Bildung, Gesellschaftswissenschaft, Demokratiebildung, Medienbildung
+
+#### Technische Angaben
+
+**Dateiformat:** Markdown/HTML
+**Dateigröße:**
+**Sprache:**
+**Barrierefreiheits-Informationen:**
+
+#### Didaktische Metadaten
+**Lernziele/Kompetenzen**
+**Geschätzte Bearbeitungszeit:**
+**Voraussetzungen/Vorkenntnisse:**
+**Einsatzkontext:** Selbstlernen/autodidaktisches Lernen,  Unterricht
+
+#### Auffindbarkeit:
+
+**Eindeutige Identifier** (DOI, URL)
+**Versionsnummer** (bei Aktualisierungen):
+<br>
+</blockquote>
+
+
+
+
+## Didaktische Einordnung
+**Das [Historische Museum Frankfurt (Main)](https://historisches-museum-frankfurt.de)verfügt über eine Vielzahl an Ausstellungsobjekten, Fotos, Texten, Filmen und Informationen. Sie sollen einer Öffentlichkeit auch außerhalb der Museumsräume zur Verfügung gestellt werden.**
 
 Da alles in digitaler Form vorliegt, entstand die Idee, Lernreisen zu bestimmten Themen und politischen Ereignissen zu entwickeln, die interessierte Personen nutzen können, um für sich dazuzulernen. Außerdem soll das Material von Lehrkräften und Pädagog\*innen so genutzt werden, dass es für den eigenen Unterricht und bestimmte Lerngruppen verändert werden kann. **Die Veröffentlichung unter der freien Lizenz CC-BY 4.0 (Namensnennung) und die Freigabe für veränderte Versionen und Remixes der Museumsressourcen ist genau hierfür passend.**
 
@@ -55,7 +115,7 @@ Gleichzeitig sind die Materialien bewusst so gestaltet, dass sie auch **Erwachse
 
 ## HowTo Selbstlernmaterial 
 
-<div class="infobox">
+<blockquote style="background-color: #E8F0FF; border-color: #E8F0FF; font-size: 15px">
     
 <br>
     
@@ -63,10 +123,10 @@ Gleichzeitig sind die Materialien bewusst so gestaltet, dass sie auch **Erwachse
 Frankfurt am Main ist eine Stadt mit großer Bedeutung für die Demokratiegeschichte Deutschlands. Insbesondere in der Märzrevolution in den Jahren 1848/49 passierten hier zentrale Ereignisse rund um die Gründung eines gesamtdeutschen Parlamentes für alle kleinen Königreiche und Fürstentümer. Auch wenn das noch lange nicht der Durchbruch der Demokratie war, entwickelten sich hier die Grundlagen der späteren Republik. Was genau, erfährst Du auf dieser Lernreise!
     
 <br>
-</div>
+</blockquote>
 
 
-<div class="infobox">
+<blockquote style="background-color: ##E6EFFF; border-color: ##E6EFFF; font-size: 15px">
     
 <br>
     
@@ -77,7 +137,7 @@ Die Möglichkeiten, was du mit diesen Texten und Bildern machen kanns sind vielf
     
 ... einfach alles durchlesen und dir die dazugehörigen Bilder anschauen - zumeist Darstellungen aus der Zeit rund um die Jahre 1848/49
     
-... dir ein Modul herausnehmen oder auch nur die Portraits ansehen
+... dir ein Modul herausnehmen oder auch nur die Portraits [politischer engagierter Frauen](https://pad.medialepfade.net/openhistory_1848-modul2-frauen#) oder die einiger [Männer/Abgeordneter](https://pad.medialepfade.net/openhistory_1848-modul2-abgeordnete#) ansehen
 
 ... mit einer Lernpartner\*in das Material gemeinsam sichten, überfliegen, aufteilen, Aufgabenstellungen gemeinsam machen und diskutieren
     
@@ -87,35 +147,35 @@ Die Möglichkeiten, was du mit diesen Texten und Bildern machen kanns sind vielf
 
 **Mehr lernen: Kleine Aufgaben helfen dir dabei, alles was du liest und anschaust noch einmal besser zu verstehen - vor allem auch aus einer anderen Perpektive noch einmal zu reflektieren.** Wir kennzeichnen diese Bereiche mit dem Titel "Mehr lernen" und mit unterschiedlichen Farben. Die unterschiedliche Ausrichtung der Aufgaben entscheidet darüber, über welche Themen du weiter nachdenken möchtest und welche Kompetenzen du dadurch trainierst. 
     
-<div class="infobox">    
+<blockquote style="background-color: #cee1f5; border-color: #cee1f5; font-size: 13px">    
     
 Um das tiefere Verständnis der **politischen oder gesellschaftlichen Dimension** geht es immer dann wenn der Text hellblau/grau gekennzeichnet ist. 
-</div>
+</blockquote>
 
     
-<div class="infobox">    
+<blockquote style="background-color: #cef5ee; border-color: #cef5ee; font-size: 13px">    
    
 Um die Vertiefung der **geschichtlichen/historischen** Ereignisse und Kompetenzen wie die Arbeit mit historischen Quellen, ihre Prüfung und Einordnung, geht es in den hellgrün/mintfarbenen "Mehr-lernen"-Blöcken 
-</div>
+</blockquote>
     
-<div class="infobox">
+<blockquote style="background-color: #D79EFF; border-color: #D79EFF; font-size: 13px">
     
 Wenn es um die Vertiefung einer **feministischen Perspektive** geht, ist der "Mehr-Lernen-Bereich" violet hinterlegt. Hier geht es um die Gleichstellung von Männern und Frauen - es wird gefragt, wie die Situation Mitte des 19. Jahrhunderts war, wie es heute aussieht und was daran ungerecht war.   
     
-</div>
+</blockquote>
 
 
-<div class="infobox">
+<blockquote style="background-color: #FF99C3; border-color: #FF99C3; font-size: 13px">
 Bei einigen Aufgabenstellungen vertiefen wir gezielt Medienkompetenz - es geht um das Arbeiten mit digitalen Werkzeugen und die kritische Reflexion
     
-</div>
+</blockquote>
 
     
-<div class="infobox">
+<blockquote style="background-color: #FFECA6; border-color: #FFECA6; font-size: 13px">
     
 Tiefer ins Thema einsteigen, kannst du auch, wenn du weitere Objektbilder aus unseren Sammlungen herunterlädst. Wenn es so ein zusätzliches Materialpaket gibt, kennzeichnen wir dies mit einem orangefarbigem Block **"Mehr sehen"**  
     
-</div>
+</blockquote>
 
 ---
 ### Unterschiedliche Schwierigkeitsgrade 
@@ -123,7 +183,7 @@ Tiefer ins Thema einsteigen, kannst du auch, wenn du weitere Objektbilder aus un
 Die vertiefenden Aufgabenstellungen sind unterschiedliche schwer. Damit du dich orientieren kannst, kennzeichnen wir jeden Schritt einer Aufgabe mit einem 📒-Symbol. Je mehr Bücher, desto anspruchsvoller.
 
     
-<div class="infobox">    
+<blockquote style="background-color: #F8FFC9; border-color: #001EB8; font-size: 15px">    
 <br>   
 
 
@@ -133,10 +193,10 @@ Du schaust genau hin und beschreibst, was du siehst oder weißt.
     
 <br>
 
-</div>
+</blockquote>
 
     
-<div class="infobox">    
+<blockquote style="background-color: #F8FFC9; border-color: #001EB8; font-size: 15px">    
 <br>   
 
 
@@ -146,10 +206,10 @@ Du recherchierst, vergleichst oder probierst digitale Werkzeuge aus.
     
 <br>
 
-</div>
+</blockquote>
 
     
-<div class="infobox">    
+<blockquote style="background-color: #F8FFC9; border-color: #001EB8; font-size: 15px">    
 <br>   
 
 
@@ -159,10 +219,10 @@ Du analysierst, ordnest ein und ziehst eigene Schlüsse.
     
 <br>
 
-</div>
+</blockquote>
 
     
-<div class="infobox">    
+<blockquote style="background-color: #F8FFC9; border-color: #001EB8; font-size: 15px">    
 <br>   
 
 
@@ -172,11 +232,11 @@ Du diskutierst, nimmst Stellung und verbindest Geschichte mit deiner Gegenwart. 
     
 <br>
 
-</div>
+</blockquote>
 
     
       
-<div class="infobox">    
+<blockquote style="background-color: #F8FFC9; border-color: #001EB8; font-size: 15px">    
 <br>   
 
 **Level 5** 📒 📒 📒 📒 📒 📒 
@@ -184,7 +244,7 @@ Für Spezialist*innen: Du arbeitest vertieft mit Quellen, Daten oder komplexen Z
     
 <br>
 
-</div>
+</blockquote>
   
 ---
     
@@ -198,10 +258,26 @@ Bitte achte jedoch darauf, **bei einer Veröffentlichung auf unser Material zu v
 -----------
 --- 
     
+# Übersicht Selbstlernmaterial im Prototyp I  
+
 ---
 ### Demokratiegeschichte in den Jahren 1848/49 rund um die Paulskirche in Frankfurt am Main
 
-### ### ### --- 
+### [Modul 1 - Demokratiegeschichte: Einmal parlamentarische Demokratie und zurück](https://pad.medialepfade.net/openhistory_1848-modul1#)
+### [Modul 2 - Politische Gruppierungen und erste politische Parteien](https://pad.medialepfade.net/openhistory_1848-modul2#)
+### [Modul 3 - Festschreibung / Entstehung grundlegender Freiheitsrechte](https://pad.medialepfade.net/openhistory_1848-modul3) 
+
+---
+
+### ZUSÄTZLICHE MATERIALIEN
+
+### [Portraits politisch engagierter Frauen](https://pad.medialepfade.net/openhistory_1848-modul2-frauen)
+
+### [Abgeordnete der Nationalversammlung - Portraits](https://pad.medialepfade.net/openhistory_1848-modul2-abgeordnete)
+
+### [Glossar](https://pad.medialepfade.net/openhistory_1848-glossar)
+
+--- 
 
 ### Gesamt-Download: Lernreise / Selbstlernpfad / Materialpaket 
 - HTML-Seitenstruktur als Zip-File, der im Browser auch offline geöffenet werden kann
