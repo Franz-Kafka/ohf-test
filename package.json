@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
+    "start": "npx @11ty/eleventy --serve & npx decap-server",
     "build": "npx @11ty/eleventy"
   },
   "repository": {
@@ -20,5 +20,8 @@
   "description": "",
   "dependencies": {
     "@11ty/eleventy": "^3.1.6"
+  },
+  "devDependencies": {
+    "decap-server": "^3.9.1"
   }
 }

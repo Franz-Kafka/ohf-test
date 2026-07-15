@@ -452,6 +452,18 @@ main {
   background: #1e3f6f;
 }
 
+.license-notice {
+  margin-top: 2rem;
+  padding: 1rem 1.5rem;
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+  border-top: 1px solid var(--color-border);
+}
+
+.license-notice a {
+  color: var(--color-accent);
+}
+
 /* === Footer === */
 .site-footer {
   border-top: 1px solid var(--color-border);

@@ -9,11 +9,18 @@
       </ul>
     </div>
     <div class="nav-section">
-      <h2 class="nav-heading">Lernmaterialien</h2>
+      <h2 class="nav-heading">Lernmaterial 1848/49</h2>
       <ul>
         {% for item in collections.lernmaterial %}
         <li><a href="{{ item.url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.data.title }}</a></li>
         {% endfor %}
+      </ul>
+    </div>
+    <div class="nav-section">
+      <h2 class="nav-heading">Personen</h2>
+      <ul>
+        <li><a href="{{ collections.abgeordnete[0].url }}"{% if page.url.indexOf('/abgeordnete/') > -1 %} aria-current="page"{% endif %}>Abgeordnete</a></li>
+        <li><a href="{{ collections.frauen[0].url }}"{% if page.url.indexOf('/frauen/') > -1 %} aria-current="page"{% endif %}>Frauen</a></li>
       </ul>
     </div>
   </div>

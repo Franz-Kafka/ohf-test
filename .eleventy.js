@@ -18,6 +18,18 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => (a.data.order || 0) - (b.data.order || 0));
   });
 
+  eleventyConfig.addCollection("abgeordnete", function (collectionApi) {
+    return collectionApi
+      .getFilteredByTag("abgeordnete")
+      .sort((a, b) => (a.data.order || 0) - (b.data.order || 0));
+  });
+
+  eleventyConfig.addCollection("frauen", function (collectionApi) {
+    return collectionApi
+      .getFilteredByTag("frauen")
+      .sort((a, b) => (a.data.order || 0) - (b.data.order || 0));
+  });
+
   eleventyConfig.on("eleventy.after", () => {
     const outDir = "_site";
     const lmDir = path.join(outDir, "lernmaterial");

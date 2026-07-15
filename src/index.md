@@ -8,15 +8,13 @@ layout: "layouts/base.njk"
 # Open History Frankfurt
 
 <p class="home-lead">
-  Willkommen bei der digitalen Projektdokumentation von <strong>Open History Frankfurt</strong> – einem Kooperationsprojekt des Historischen Museums Frankfurt zur offenen Geschichtsvermittlung.
+  Willkommen bei <strong>OpenHistory – Lernreisen</strong>, einem Projekt des Historischen Museums Frankfurt. Hier finden Sie die Projektdokumentation und frei zugängliche Lernmaterialien zur Frankfurter Demokratiegeschichte 1848/49 – als Open Educational Resources (OER).
 </p>
-
-Dieses Projekt erschließt Frankfurter Stadtgeschichte für Bildungseinrichtungen, Forschende und die interessierte Öffentlichkeit. Die hier bereitgestellten Materialien sind frei zugänglich und als Open Educational Resources (OER) konzipiert.
 
 <div class="home-sections">
   <div class="home-card">
     <h2>Projektdokumentation</h2>
-    <p>Erfahren Sie mehr über Hintergründe, Methoden und Ergebnisse des Projekts.</p>
+    <p>Forschung, Methodik und Kriterien des OpenHistory-Projekts.</p>
     <ul>
       {% for item in collections.doku %}
       <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
@@ -24,12 +22,20 @@ Dieses Projekt erschließt Frankfurter Stadtgeschichte für Bildungseinrichtunge
     </ul>
   </div>
   <div class="home-card">
-    <h2>Lernmaterialien</h2>
-    <p>Didaktisch aufbereitete Materialien für den Einsatz in Schule und Bildungsarbeit.</p>
+    <h2>Lernumgebung 1848/49</h2>
+    <p>Didaktisch aufbereitete Materialien zur Revolution und Demokratiegeschichte.</p>
     <ul>
       {% for item in collections.lernmaterial %}
       <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
       {% endfor %}
+    </ul>
+  </div>
+  <div class="home-card">
+    <h2>Planspiel 1848 – Personen</h2>
+    <p>Portraits von Abgeordneten und Frauen der Revolution für das Planspiel.</p>
+    <ul>
+      <li><a href="{{ collections.abgeordnete[0].url }}">Abgeordnete der Nationalversammlung</a> ({{ collections.abgeordnete | length }} Portraits)</li>
+      <li><a href="{{ collections.frauen[0].url }}">Frauen in der Revolution</a> ({{ collections.frauen | length }} Portraits)</li>
     </ul>
   </div>
 </div>
@@ -38,6 +44,10 @@ Dieses Projekt erschließt Frankfurter Stadtgeschichte für Bildungseinrichtunge
   <h2>Lernmaterialien herunterladen</h2>
   <p>Alle Lernmaterialien als ZIP-Archiv für die Offline-Nutzung.</p>
   <a href="{{ '/downloads/lernmaterialien.zip' | url }}" class="btn-download">ZIP herunterladen</a>
+</div>
+
+<div class="license-notice">
+  <p>Dieses Material wird als Open Educational Resources (OER) bereitgestellt und ist lizenziert unter einer <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a> (CC BY 4.0).</p>
 </div>
 
 </div>
