@@ -1,9 +1,8 @@
-local_backend: true
-
 backend:
   name: github
   repo: Franz-Kafka/ohf-test
   branch: main
+  base_url: https://sveltia-cms-auth.mail-fd1.workers.dev
 
 media_folder: "src/assets/img"
 public_folder: "/assets/img"
